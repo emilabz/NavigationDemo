@@ -30,5 +30,9 @@
         android:id="@+id/thirdFragment"
         android:name="com.example.navigationdemo.thirdFragment"
         android:label="fragment_third"
-        tools:layout="@layout/fragment_third" />
+        tools:layout="@layout/fragment_third" >
+        <action
+            android:id="@+id/thirdtoSec"
+            app:destination="@id/secondScreen" />
+    </fragment>
 </navigation>
